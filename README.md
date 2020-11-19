@@ -18,3 +18,6 @@ My name is Kurosh Rezania. I am currently at the date where this is first modifi
 
 ### 50 word-description of my career plans
 As of right now, I am not all that confident of what I want to do in the Future. I have been looking into different programs such as a bachelor of science or a type of engineering program. I love stuff that related to science, physics and math. Since I am in grade 11 pre application is less than one year away. I am looking forward to pre apply for my future.
+
+#toinclude
+https://github.com/koolaid97/what-is-a-website- great shortcut
