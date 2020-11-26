@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
 
-    <title>childpage template webpage</title>
+    <title>flexbox template webpage</title>
 
 
 
@@ -13,25 +13,60 @@
     <meta name="description" content="Example boilerplate for Who am I Project">
     <meta name="keywords" content="boilerplate, starter code, HTML, learning">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
+    <style>
+    * {
+        box-sizing: border-box;
+      }
 
-    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
+      /* div {border: thin dotted red;} */
 
-    <!-- Other meta attributes to be aware of -->
+      .header {
+        /* border: 1px solid red; */
+        padding: 15px;
+      }
 
-    <!-- meta http-equiv="refresh" content="30"-->
-<!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
-<!-- Use this when refreshes are needed -->
+      .menu {
+        width: 20%;
+        float: left;
+        padding: 15px;
+        /* border: 1px solid red; */
+      }
 
-    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
-    <!-- Already specified in the charset above-->
+      .main {
+        width: 60%;
+        float: left;
+        padding: 15px;
+        /* border: 1px solid red; */
+      }
+
+      .aside {
+        width: 20%;
+        float: left;
+        padding: 15px;
+        /* border: 1px solid red; */
+      }
+
+      .footer {
+        border: 1px solid red;
+        padding: 15px;
+     }
+      </style>
   </head>
   <body>
     <!-- Review specific tags such as h1-h6, p, & special symbols like &copy-->
-    <header><h1>Header Title</h1></header>
+<div class="header">
+    <header><h1 style="font-size:6vw">Flex box template</h1></header>
+    <div>
+
+    <div class="menu">
       <nav><h1>Navigation</h1></nav>
+    <div>
+
+      <div aside="aside">
       <aside><p>This is the aside space.</p></aside>
-      <section>
+      <div>
+
+      <div class="main">
         <h3>Section 1</h3>
         <article>
           <p>This is article 1 in section 1.</p>
@@ -49,9 +84,11 @@
           <p>This is article 2 in section 2.</p>
         </article>
       </section>
+      <div>
   </body>
 
   <footer>
+    <div class="footer">
     <blockquote cite="https://www.goalcast.com/2017/03/20/top-20-inspiring-mahatma-gandhi-quotes">
       <!-- Date Accessed 20201120-->
     </blockquote>
@@ -61,6 +98,6 @@
      </em>
    </p>
    <p>&copy Kurosh Rezania powered by Koolaid 97 in Github</p>
-
+  <div>
   <footer>
 </html>
