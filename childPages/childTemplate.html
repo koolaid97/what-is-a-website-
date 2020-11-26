@@ -25,13 +25,61 @@
 
     <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
     <!-- Already specified in the charset above-->
-  </head>
-  <body>
+
+    <style>
+    * {
+        box-sizing: border-box;
+      }
+
+      /* div {border: thin dotted red;} */
+
+      .header {
+        /* border: 1px solid red; */
+        padding: 15px;
+      }
+
+      .menu {
+        width: 20%;
+        float: left;
+        padding: 15px;
+        /* border: 1px solid red; */
+      }
+
+      .main {
+        width: 60%;
+        float: left;
+        padding: 15px;
+        /* border: 1px solid red; */
+      }
+
+      .aside {
+        width: 20%;
+        float: left;
+        padding: 15px;
+        /* border: 1px solid red; */
+      }
+
+      .footer {
+        border: 1px solid red;
+        padding: 15px;
+     }
+      </style>
+    </head>
+    <body>
     <!-- Review specific tags such as h1-h6, p, & special symbols like &copy-->
-    <header><h1>Header Title</h1></header>
+    <div class="header">
+    <header><h1 style="font-size:6vw">Flex box template</h1></header>
+    <div>
+
+    <div class="menu">
       <nav><h1>Navigation</h1></nav>
+    <div>
+
+      <div aside="aside">
       <aside><p>This is the aside space.</p></aside>
-      <section>
+      <div>
+
+      <div class="main">
         <h3>Section 1</h3>
         <article>
           <p>This is article 1 in section 1.</p>
@@ -49,9 +97,11 @@
           <p>This is article 2 in section 2.</p>
         </article>
       </section>
-  </body>
+      <div>
+    </body>
 
-  <footer>
+    <footer>
+    <div class="footer">
     <blockquote cite="https://www.goalcast.com/2017/03/20/top-20-inspiring-mahatma-gandhi-quotes">
       <!-- Date Accessed 20201120-->
     </blockquote>
@@ -59,8 +109,7 @@
       <em><a href="https://www.goalcast.com/2017/03/20/top-20-inspiring-mahatma-gandhi-quotes">
        - mahatma gandhi</a>
      </em>
-   </p>
-   <p>&copy Kurosh Rezania powered by Koolaid 97 in Github</p>
-
-  <footer>
-</html>
+    </p>
+    <p>&copy Kurosh Rezania powered by Koolaid 97 in Github</p>
+    <div>
+    <footer>
